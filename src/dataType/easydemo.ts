@@ -127,3 +127,11 @@ function greet(): void {
     console.log("Welcome to SHC College");
 }
 greet();
+
+// 26. Template string //
+let intro=`My name is ${username}.I am ${age}!`;
+console.log(intro);
+
+//27. Readonly Array//
+const degree: ReadonlyArray<string> = ["BBA","MBA"];
+console.log("Degrees:",degree);
