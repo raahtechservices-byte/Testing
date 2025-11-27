@@ -121,3 +121,6 @@ console.log("College Info:",collegeinfo);
 function sub(a: number, b: number): number {
     return b - a}
     console.log("Subtraction:",sub(50,150));
+
+
+    
