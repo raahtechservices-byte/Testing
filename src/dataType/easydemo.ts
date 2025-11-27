@@ -122,5 +122,7 @@ function sub(a: number, b: number): number {
     return b - a}
     console.log("Subtraction:",sub(50,150));
 
-
-    
+// void //
+function greet(): void {
+    console.log("Welcome to SHC College");
+}
